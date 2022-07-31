@@ -46,6 +46,8 @@ const Grid = styled(motion.div)`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
 `;
 
 const Card = styled.div`
@@ -53,7 +55,7 @@ const Card = styled.div`
     transition: 250ms ease;
     img {
         width: 100%;
-        border-radius: 1rem;
+        border-radius: 1rem 1rem 0 0;
     }
     a {
         text-decoration: none;

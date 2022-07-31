@@ -79,6 +79,7 @@ const Wrapper = styled.div`
     }
     h1 {
         margin: 1.2rem;
+        text-align: center;
     }
     li {
         line-height: 1.5rem;
@@ -88,7 +89,7 @@ const Wrapper = styled.div`
     }
     p {
         line-height: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin: 1.5rem;
     }
 `;
 
@@ -106,15 +107,15 @@ const Summary = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 1rem 5rem;
+    margin: 1rem 3rem;
     img {
-        margin: 1rem;
+        margin: 1.2rem;
         border-radius: 1rem;
         flex: 1;
         width: 50%;
     }
     p {
-        margin: 1rem;
+        margin: 1.2rem;
         flex: 1;
     }
 `;
